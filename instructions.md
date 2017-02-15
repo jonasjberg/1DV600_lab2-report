@@ -13,13 +13,13 @@ case and sequence diagrams.
 Remember that all assignments are individual!
 
 
-Task 1 -- Analys
+Task 1 -- Analysis
 ------------------
 In analysis is focus is on what to do rather than how to implement it. In the
 subtasks you will be using UML in different ways to perform an analysis on the
 library system that you began with in the previous assignment.
 
-### Subtask A -- Identifying Use Cas
+### Subtask A -- Identifying Use Case
 The UML way of documenting requirements is through use cases and in this first
 task you are to identify and document the use cases used in the system. When
 documenting a use case, it is customary to specify initiation, pre and post
@@ -29,7 +29,7 @@ diagrams.
 Also write down your own reflections on identifying use cases and documenting
 them in about 100 words.
 
-### Subtask B -- Robustness Diagra
+### Subtask B -- Robustness Diagram
 A non­standardised, but yet highly valuable diagram, in UML is the robustness
 diagram in which in a way is a simplification of communication and
 collaboration diagrams. They are used to analyse the steps of a use case and
