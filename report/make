@@ -81,11 +81,37 @@ function msg_notify()
                 "$label" "$(echo "${text}")"
 }
 
+markdowntoprettypdf() 
+{
+    src="$1"
+    dest="${1%.*}.pdf"
+
+    # Do character replacements before piping to pandoc.
+    cat "$src" | sed 's/➡/-->/' | \
+    pandoc --smart --normalize --standalone \
+           --highlight-style=monochrome \
+           --variable mainfont="DejaVu Sans" \
+           --variable monofont="DejaVu Sans Mono" \
+           --variable fontsize=11pt \
+           --variable geometry:"top=1.5cm, bottom=2.5cm, left=1.5cm, right=1.5cm" \
+           --variable geometry:a4paper \
+           --number-sections \
+           -f markdown \
+           -o "$dest"
+}
+
 
 # Run all this stuff in a sub-shell because reasons.
 (
   cd "$SCRIPT_PATH"
   echo "now working from directory: \"$(pwd -P)\""
+  
+  # First use pandoc to make pdf from the markdown files.
+  for arg in use-case-*.md
+  do
+      markdowntoprettypdf "$arg"
+  done
+
   
   # Find main tex file not specified as first argument to this script.
   if [ -z "$TEX_MAIN" ]
