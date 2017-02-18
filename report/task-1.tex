@@ -35,7 +35,7 @@ from the course Wiki\cite{1dv600:lab2:instructions}:
 \end{quote}
 
 
-\subsubsection{Use case 1}\label{task-1a-usecase1}
+\subsubsection{Use case 1 -- Scenario}\label{task-1a-usecase1scenario}
 %
 % TODO: Specify: Initiation
 %                Pre- and post-conditions
@@ -44,7 +44,24 @@ from the course Wiki\cite{1dv600:lab2:instructions}:
 
 % TODO: Describe the flows using activity diagrams.
 
-\input{use-case-1.tex}
+The first use case is based on the following scenario:
+
+The user Gibson visits the book library application website to add a newly
+purchased book to his collection. Gibson first clicks the GUI button ``New
+Book'' which brings up another page with a number of empty metadata fields.
+Gibson then opens his physical book and fills out the fields to the best of his
+ability. He does this by manually clicking with the mouse in each text field,
+looks up the data in his book and fills out the textfield with the data.  After
+Gibson has filled out all the metadata fields, he clicks the ``Save'' button
+which brings him back to the page with the main view.
+The entered data is validated by the application. If the data is correct, it is
+handed over to the backend storage database.
+
+\subsubsection{Use case 1 -- Use Case Specification}\label{task-1a-usecase1}
+
+\includepdf[pages=-,
+            pagecommand={},
+            width=\textwidth]{use-case-1.pdf}
 
 
 \subsubsection{Use case 2}\label{task-1a-usecase2}
