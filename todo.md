@@ -1,6 +1,15 @@
-Analysis, Design and Implementation
-===================================
 
+Assignment 2 -- "Analysis, Design and Implementation"
+=====================================================
+```
+Author:  Jonas Sjöberg
+         Linnaeus University
+         js224eh@student.lnu.se
+         https://github.com/jonasjberg
+         http://www.jonasjberg.com
+
+  Date:  2017-02-16 -- 2017-02-19
+```
 
 Task 1 -- Analysis
 ------------------

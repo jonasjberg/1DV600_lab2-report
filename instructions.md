@@ -2,7 +2,7 @@ Analysis, Design and Implementation
 ===================================
 
 * Source: [tobias-dv-lnu/1dv600-lab/wiki](https://github.com/tobias-dv-lnu/1dv600-lab/wiki/Assignment-2)
-* Local source: 
+* Local source: `~/LNU/1DV600_Programvaruteknik/src/1dv600-lab.wiki.git/Assignment-2.md`
 
 In this assignment you are going further with your planning to the phases
 analysis, design and implementation. In this, you will find out the value of
