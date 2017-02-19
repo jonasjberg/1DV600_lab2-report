@@ -2,6 +2,8 @@
 > =================
 > This use case describes a user adding a book to the library. This is the "ideal
 > case" where all metadata fields are filled out with with correct data.
+>
+> An alternate flow is used to model the case where a duplicate entry is made.
 > 
 > 
 > Actor Brief Descriptions
@@ -21,10 +23,10 @@
 > Basic Flow of Events
 > ====================
 > 
-> 1.The use case begins when Gibson, adds a book
-> 2.Gibson clicks the “New Book” button
-> 3.Gibson fills out all metadata fields
-> 4.Gibson clicks the “Save” button, whereby the use case ends
+> 1. The use case begins when Gibson, adds a book
+> 2. Gibson clicks the “New Book” button
+> 3. Gibson fills out all metadata fields
+> 4. Gibson clicks the “Save” button, whereby the use case ends
 > 
 > 
 > Alternative Flows
@@ -46,11 +48,11 @@
 > 
 > ## `<subflow 1>`
 > 
-> 1.  `<subflow 1, step 1>`
+> 1. `<subflow 1, step 1>`
 > 
-> 2.  `...`
+> 2. `...`
 > 
-> 3.  `<subflow 1, step n>`
+> 3. `<subflow 1, step n>`
 > 
 > 
 > Key Scenarios
