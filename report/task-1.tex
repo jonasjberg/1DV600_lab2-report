@@ -36,14 +36,6 @@ from the course Wiki\cite{1dv600:lab2:instructions}:
 
 
 \subsubsection{Use case 1 -- Scenario}\label{task-1a-usecase1scenario}
-%
-% TODO: Specify: Initiation
-%                Pre- and post-conditions
-%                The primary flow
-%                Some additional ones
-
-% TODO: Describe the flows using activity diagrams.
-
 The first use case is based on the following scenario:
 
 The user Gibson visits the book library application website to add a newly
@@ -57,21 +49,64 @@ which brings him back to the page with the main view.
 The entered data is validated by the application. If the data is correct, it is
 handed over to the backend storage database.
 
-\subsubsection{Use case 1 -- Use Case Specification}\label{task-1a-usecase1}
+This use case is described in detail in \ref{task-1a-usecase1spec}.
 
+
+\subsubsection{Use case 1 -- Use Case Specification}\label{task-1a-usecase1spec}
 \includepdf[pages=-,
             pagecommand={},
             width=\textwidth]{use-case-1.pdf}
 
 
-\subsubsection{Use case 2}\label{task-1a-usecase2}
-%
-% TODO: Specify: Initiation
-%                Pre- and post-conditions
-%                The primary flow
-%                Some additional ones
+\subsubsection{Use case 1 -- UML Use Case Diagram}\label{task-1a-usecase1uml}
+The UML use case diagram is shown in Figure~\ref{fig:uml-usecase1}.
 
+\begin{figure}[htbp]                                             
+  \centering                                                       
+  \includegraphics[width=0.5\linewidth]{include/uml-use-case-1.eps}
+  \caption{UML Use Case Diagram for use case 1 -- Add a Book} 
+  \label{fig:uml-usecase1}                                              
+\end{figure}                                                     
+
+
+\subsubsection{Use case 1 -- Activity Diagram}\label{task-1a-usecase1activity}
 % TODO: Describe the flows using activity diagrams.
+                                                                 
+
+
+\subsubsection{Use case 2 -- Scenario}\label{task-1a-usecase2}
+The user Gibson visits the book library application website to view all books
+he has previously entered. The complete list of books appear at once as he
+visits the website. The listing is the default starting page and so Gibson does
+not have to interact with the application to view the listing.
+
+
+\subsubsection{Use case 2 -- Use Case Specification}\label{task-1a-usecase2spec}
+\includepdf[pages=-,
+            pagecommand={},
+            width=\textwidth]{use-case-2.pdf}
+
+
+\subsubsection{Use case 2 -- UML Use Case Diagram}\label{task-1a-usecase2uml}
+The UML use case diagram is shown in Figure~\ref{fig:uml-usecase2}.
+
+\begin{figure}[htbp]                                             
+  \centering                                                       
+  \includegraphics[width=0.75\linewidth]{include/uml-use-case-2.eps}
+  \caption{UML Use Case Diagram for use case 2 -- List Books} 
+  \label{fig:uml-usecase2}                                              
+\end{figure}                                                     
+
+
+\subsubsection{Use case 2 -- Sequence Diagram}\label{task-1a-usecase2seq}
+The UML sequence diagram is shown in Figure~\ref{fig:uml-usecase2seq}.
+
+\begin{figure}[htbp]                                             
+  \centering                                                       
+  \includegraphics[width=0.75\linewidth]{include/uml-use-case-2-seq.eps}
+  \caption{UML Sequence Diagram for use case 2 -- List Books} 
+  \label{fig:uml-usecase2seq}                                              
+\end{figure}                                                     
 
 
 \subsubsection{Reflect}\label{task-1a-reflect}
