@@ -69,7 +69,7 @@ The UML use case diagram is shown in Figure~\ref{fig:uml-usecase1}.
 \end{figure}
 
 
-%\subsubsection{Use case 1 -- Activity Diagram}\label{task-1a-usecase1activity}
+\subsubsection{Use case 1 -- Activity Diagram}\label{task-1a-usecase1activity}
 % TODO: Describe the flows using activity diagrams.
 
 
@@ -104,25 +104,15 @@ The UML use case diagram is shown in Figure~\ref{fig:uml-usecase2}.
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.75\linewidth]{include/uml-use-case-2.eps}
+  \includegraphics[width=\linewidth]{include/uml-use-case-2.eps}
   \caption{UML Use Case Diagram for use case 2 -- List Books}
   \label{fig:uml-usecase2}
 \end{figure}
 
 
-%\subsubsection{Use case 2 -- Activity Diagram}\label{task-1a-usecase2activity}
+\subsubsection{Use case 2 -- Activity Diagram}\label{task-1a-usecase2activity}
 % TODO: Describe the flows using activity diagrams.
 
-
-\subsubsection{Use case 2 -- Sequence Diagram}\label{task-1a-usecase2seq}
-The UML sequence diagram is shown in Figure~\ref{fig:uml-usecase2seq}.
-
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.75\linewidth]{include/uml-use-case-2-seq.eps}
-  \caption{UML Sequence Diagram for use case 2 -- List Books}
-  \label{fig:uml-usecase2seq}
-\end{figure}
 
 
 \subsubsection{Reflect}\label{task-1a-reflect}
@@ -216,9 +206,15 @@ from the course Wiki\cite{1dv600:lab2:instructions}:
 \end{quote}
 
 
-\subsubsection{"List Books" sequence diagram}\label{task-1c-sequence1}
-%
-% TODO: Use case realizations with sequence diagrams for this case.
+\subsubsection{Use case 2: "List Books" -- Sequence Diagram}\label{task-1a-usecase2seq}
+The UML sequence diagram is shown in Figure~\ref{fig:uml-usecase2seq}.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\linewidth]{include/uml-use-case-2-seq.eps}
+  \caption{UML Sequence Diagram for use case 2 -- List Books}
+  \label{fig:uml-usecase2seq}
+\end{figure}
 
 
 \subsubsection{"Delete Book" sequence diagram}\label{task-1c-sequence2}
@@ -227,6 +223,20 @@ from the course Wiki\cite{1dv600:lab2:instructions}:
 
 
 \subsubsection{Reflections}\label{task-1c-reflect}
-%
-% TODO: Write about 100 words of reflections on use case realisations.
+The sequence diagram describe the system at a lower level of abstraction, often
+showing actual method calls and parameters passed between objects. Using this
+kind of diagram as a design-aid makes little sense to me, as the iteration
+cycles often would require a lot of time dedicated to keeping diagrams up to
+date.
+
+There are tools for generating sequence diagrams from Java source code.  I have
+used ``\texttt{JIVE} -- Java Interactive Visualization
+Environment''\cite{tools:jive} during courses in object orientation at
+Högskolan i Gävle. This makes keeping the diagrams in sync with the code more
+viable, but the tools does not always produce valid diagrams.
+
+
+
+
+Documenting a completed system on the other hand, makes more sense.
 
