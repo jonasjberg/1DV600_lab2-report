@@ -1,0 +1,31 @@
+2017-02-19 19:39:18 Documentation Add robustness diagrams ..
+2017-02-19 19:09:15 Documentation Adjust figures ..
+2017-02-19 19:09:00 Documentation Add use case specification for use case 2.
+2017-02-19 18:44:13 Documentation Finished Task 1.
+2017-02-19 17:44:04 Documentation Add sequence diagrams (not activity diagrams ..)
+2017-02-19 17:27:36 Documentation Add 'copy-figures.sh' and use it in 'make' script.
+2017-02-19 17:23:37 Documentation Update ..
+2017-02-19 17:23:31 Documentation Update ..
+2017-02-19 17:23:09 Documentation Add 'include' directory with '*.eps' figures.
+2017-02-18 19:39:43 Documentation Update task #1 ..
+2017-02-18 19:39:23 Documentation Add skeleton time log from previous assignment.
+2017-02-18 19:37:33 Documentation Modify front page title.
+2017-02-18 19:35:38 Documentation Add handling 'use-case-*.md' to build script.
+2017-02-18 19:35:27 Documentation Add 'use-case-1.md'.
+2017-02-18 19:35:09 Documentation Remove '.tex' use cases. Use '.md' instead.
+2017-02-18 19:34:12 Documentation Add '.tex' use case skeleton and #1 in progress.
+2017-02-18 18:46:19 Documentation Update '{instructions,todo}.md' ..
+2017-02-18 18:37:39 Documentation Finalize report skeleton.
+2017-02-18 18:28:40 Documentation First draft of 'intro.tex'.
+2017-02-18 18:26:06 Documentation Add skeleton use case.
+2017-02-18 18:01:15 Documentation Add 'make' build script.
+2017-02-18 17:56:55 Documentation Add 'todo.md'.
+2017-02-18 17:56:34 Documentation Add report skeleton.
+2017-02-16 00:35:04 Documentation Add script 'markdowntoprettypdf.sh'.
+2017-02-16 00:20:31 Documentation Add 'time-log.md.pdf'.
+2017-02-16 00:19:32 Documentation Fix time log table.
+2017-02-16 00:13:53 Documentation Fix encoding errors in the instructions.
+2017-02-16 00:13:32 Documentation Add time log planning table.
+2017-02-15 23:50:58 Documentation Add first draft of the time log.
+2017-02-15 23:39:15 Documentation Add in progress time log.
+2017-02-15 23:39:08 Documentation Initial commit.
