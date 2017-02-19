@@ -110,6 +110,10 @@ The UML use case diagram is shown in Figure~\ref{fig:uml-usecase2}.
 \end{figure}
 
 
+%\subsubsection{Use case 2 -- Activity Diagram}\label{task-1a-usecase2activity}
+% TODO: Describe the flows using activity diagrams.
+
+
 \subsubsection{Use case 2 -- Sequence Diagram}\label{task-1a-usecase2seq}
 The UML sequence diagram is shown in Figure~\ref{fig:uml-usecase2seq}.
 
@@ -122,11 +126,26 @@ The UML sequence diagram is shown in Figure~\ref{fig:uml-usecase2seq}.
 
 
 \subsubsection{Reflect}\label{task-1a-reflect}
-%
-% TODO: Write down your own reflections in about 100 words, on:
-%         * Identifying use cases
-%         * Documenting use cases
+It is my experience that modeling software in this way is rarely, if ever
+actually useful. Time spent diagramming is time spent not programming..
 
+Software is by definition not suitable for modeling and even if it were, rapid
+changes makes keeping diagrams up to date a huge task.  I often use sketches
+and diagrams when designing, but these are free-form and not rigid standardized
+UML. Iterations cycles are often too frequent to motivate conformance to any
+rigid standards. Creating documents for a specific release is another thing
+entirely, rarely useful or needed except in very ``corporate'' environments.  I
+am aware that this is the norm in these corporate environments, and it might
+even be useful in huge projects.  But for the kind of development I have done;
+embedded systems, micro controllers, game development -- these kind of design
+techniques, when taken to the extreme, just seem like an excuse to write books
+and host seminars. \cite{use-case-critiques} \cite{use-case-critique}
+
+I think that the usefulness of UML diagrams would increase dramatically if
+tools could automate the generation of diagrams from the source code.  Most
+free tools available does not consistently generate diagrams that I would trust
+to accurately describe the software system at all times. This could only be
+used to document completed releases, not as a design-aid.
 
 
 % ______________________________________________________________________________
@@ -146,14 +165,14 @@ from the course Wiki\cite{1dv600:lab2:instructions}:
 \end{quote}
 
 
-\subsubsection{Robustness diagram for use case 1}\label{task-1b-robust1}
+\subsubsection{Robustness diagram for use case 1 -- Adding a Book}\label{task-1b-robust1}
 %
-% TODO: Create robustness diagrams for the use cases you identified in task A.
+% TODO: Create robustness diagrams for use case 1.
 
 
-\subsubsection{Robustness diagram for use case 2}\label{task-1b-robust2}
+\subsubsection{Robustness diagram for use case 2 -- Listing all Books}\label{task-1b-robust2}
 %
-% TODO: Create robustness diagrams for the use cases you identified in task A.
+% TODO: Create robustness diagrams for use case 2.
 
 
 \subsubsection{Reflect}\label{task-1b-reflect}
