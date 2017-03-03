@@ -42,26 +42,33 @@ Figure~\ref{fig:uml-xmlseq}.
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=\linewidth]{include/uml-xml-design-rob.eps}
+  \includegraphics[width=0.75\linewidth]{include/uml-xml-design-rob.eps}
   \caption{UML Robustness Diagram for the XML File Reader}
   \label{fig:uml-xmlrob}
 \end{figure}
 
-%
-% TODO: Design the logic to fetch books in XML format 
-%       
-%       * After reading the XML file it should be converted into objects in the
-%         running system and lastly translated into JSON for the web browser.
-%       
-%       * Use suitable UML diagrams to describe your solution (i.e. not code). 
-%       
-%       * Identify objects used in this and what messages they are sending, and
-%         when. 
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1\linewidth]{include/uml-xml-design-seq.eps}
+  \caption{UML Sequence Diagram for the XML File Reader}
+  \label{fig:uml-xmlseq}
+\end{figure}
+
+
+It is not clear at this point how any exceptions, such as file read or
+\texttt{XML} parsing errors should be handled. Exceptions should be propagated
+from objects further down the call-chains, up to the user interface layer to be
+displayed as some kind of warning message.
 
 
 
 % ______________________________________________________________________________
 \subsection{Reflections}\label{task-2-reflect}
-%
-% TODO: Write about 100 words of reflections on use case realisations.
+Designing before coding is always wise, but my own personal style of reasoning
+about how to solve programming problems does not necessarily line up with the
+tools and frameworks provided by UML and its enclosing design-paradigm.
+
+I also do not have enough insight or experience with the underlying framework
+``dropwizard''\cite{framework:dropwizard} to make informed decisions on error
+handling and logging, among other things.
 
